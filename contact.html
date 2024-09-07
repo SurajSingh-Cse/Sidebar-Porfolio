@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        
+        <nav>
+            <ul>
+                <li> <a href="home.html"> Home </a> </li>
+                <li> <a href="intro.html"> My Intro </a> </li>
+                <li> <a href="services.html"> Services</a> </li>
+                <li> <a href="cv.html"> CV </a> </li>
+                <li> <a href="blog.html"> Blog </a> </li>
+                <li> <a href="contact.html"> Contact Me </a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="apply_box">
+            <h1>Job Application
+                <span class="title">(web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                        <input id="first_name" name="first_name" placeholder="Enter Your First Name" />
+
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input id="last_name" name="last_name" placeholder="Enter Your Last Name" />
+                    </div>
+
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" />
+                    </div>
+
+                    <div class="form_control">
+                        <label for="job_rol"> Job Role </label>
+                        <select>
+                            <option value="">None</option>
+                            <option value="front-end">Frontends</option>
+                            <option value="backend">Back-ends</option>
+                            <option value="fullstack">Fullstack</option>
+                            <option value="web_designer">Web Designer </option>
+                        </select>
+                    </div>
+
+                    <div class="textarea_control">
+                        <label for="address"> Address </label>
+                        <textarea id="address" name="address" rows="4" cols="50"
+                            placeholder="Enter your Address"></textarea>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="city"> City </label>
+                        <input id="city" name="city" placeholder="Enter your City...." />
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="pin">Pin Code</label>
+                        <input type="number" id="pin" name="pincode" placeholder="Enter Pincode">
+                    </div>
+
+
+                    <div class="form_control">
+                        <label for="date">date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="file">Upload File</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+
+
+                </div>
+        
+        <div class="button_container">
+            <button type="submit">Apply Now</button>
+        </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
